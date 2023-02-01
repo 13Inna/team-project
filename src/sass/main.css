@@ -82,7 +82,6 @@ body.modal-open {
   min-width: 320px;
   padding-left: 20px;
   padding-right: 20px;
-  outline: 1px solid red;
   width: 100vw;
 }
 
@@ -2202,7 +2201,9 @@ body.modal-open {
 }
 
 .customer-review__wraper {
+  height: 541px;
   position: relative;
+  width: 395px;
 }
 
 @media screen and (max-width: 479px) {
@@ -2436,6 +2437,13 @@ body.modal-open {
   top: -4px;
   width: 12px;
   border-radius: 50%;
+}
+
+.wrapper .controls {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  position: absolute;
 }
 
 .current::after {
